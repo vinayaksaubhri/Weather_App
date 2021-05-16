@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, StatusBar, StyleSheet } from "react-native";
 import Sun_cloud_icon from "../assets/Sun_cloud_icon";
 import Temperature from "../components/Temperature";
+import Details from "../components/Detail";
 
 const MainScreen = () => {
   return (
@@ -11,6 +12,7 @@ const MainScreen = () => {
         <Sun_cloud_icon />
       </View>
       <Temperature />
+      <Details />
     </View>
   );
 };

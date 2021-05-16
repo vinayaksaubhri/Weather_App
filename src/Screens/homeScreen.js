@@ -1,11 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
-
+import Hourly from "../components/Hourly";
 const homeScreen = () => {
-  return (
-    <View>
-      <Text>hello world</Text>
-    </View>
-  );
+  return <Hourly />;
 };
 export default homeScreen;

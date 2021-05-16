@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, StatusBar } from "react-native";
 import HomeScreen from "./src/Screens/homeScreen";
-import Details from "./src/Screens/Details";
+// import Details from "./src/Screens/Details";
 import MainScreen from "./src/Screens/MainScreen";
 
 export default function App() {

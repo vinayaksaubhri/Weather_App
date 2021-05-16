@@ -1,11 +1,9 @@
 import React from "react";
-import { View, Text } from "react-native";
+import Detail from '../components/Detail'
 
 const homeScreen = () => {
   return (
-    <View>
-      <Text>hello world</Text>
-    </View>
+      <Detail/>
   );
 };
 export default homeScreen;

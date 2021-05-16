@@ -64,8 +64,7 @@ const styles = StyleSheet.create({
   box: {
     width: 93,
     height: 56,
-    margin: 10,
-    padding: 3,
+    margin: 14,
   },
   text: {
     color: "rgba(255, 255, 255, 0.7)",

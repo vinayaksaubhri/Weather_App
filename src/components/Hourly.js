@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import Cloud from "../assets/cloud";
 import Drop from "../assets/drop";
+// import { Poppins_100Thin } from "@expo-google-fonts/poppins";
 
 function Hourly(props) {
   return (
@@ -45,8 +46,9 @@ const style = StyleSheet.create({
     height: 164,
     display: "flex",
     borderRadius: 10,
-    backgroundColor: "rgba(52, 52, 52, 0.5)",
+    backgroundColor: "#343434",
     flexWrap: "wrap",
+    marginBottom: 30,
   },
   upperbox: {
     flex: 1,
@@ -57,7 +59,7 @@ const style = StyleSheet.create({
     marginTop: 15,
     marginLeft: 22,
     fontSize: 18,
-    fontFamily: "Poppins",
+    // fontFamily: "Poppins",
     color: "rgba(255, 255, 255, 0.7)",
   },
 
@@ -77,11 +79,11 @@ const style = StyleSheet.create({
   data: {
     fontSize: 19,
     color: "rgba(255, 255, 255, 0.7)",
-    fontFamily: "Poppins",
+    // fontFamily: "Poppins",
   },
   header: {
     color: "rgba(255, 255, 255, 0.7)",
-    fontFamily: "Poppins",
+    // fontFamily: "Poppins",
   },
 });
 export default Hourly;

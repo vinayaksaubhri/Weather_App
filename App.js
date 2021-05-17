@@ -1,20 +1,19 @@
 import React from "react";
-import { StyleSheet, Text, View, StatusBar } from "react-native";
+import { StyleSheet, Text, View, StatusBar, ScrollView } from "react-native";
 import HomeScreen from "./src/Screens/homeScreen";
-<<<<<<< HEAD
-
-=======
 // import Details from "./src/Screens/Details";
->>>>>>> Pradumn-Singh-Patel-master
 import MainScreen from "./src/Screens/MainScreen";
+// import { Poppins_100Thin } from "@expo-google-fonts/poppins";
 
 export default function App() {
   return (
     <>
-      <View style={styles.MainScreen}>
-        <StatusBar style={{ color: "white" }} />
-        <MainScreen />
-      </View>
+      <ScrollView>
+        <View style={styles.MainScreen}>
+          <StatusBar style={{ color: "white" }} />
+          <MainScreen />
+        </View>
+      </ScrollView>
     </>
   );
 }

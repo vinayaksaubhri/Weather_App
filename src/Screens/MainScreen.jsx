@@ -2,12 +2,10 @@ import React from "react";
 import { View, Text, StatusBar, StyleSheet, ScrollView } from "react-native";
 import Sun_cloud_icon from "../assets/Sun_cloud_icon";
 import Temperature from "../components/Temperature";
-<<<<<<< HEAD
 import Details from "../components/Detail";
-=======
-import Detail from "../components/Detail";
->>>>>>> Pradumn-Singh-Patel-master
-
+import Hourly from "../components/Hourly";
+import Rain from "../components/rain";
+import Feelslike from "../components/feelslike";
 const MainScreen = () => {
   return (
     <ScrollView>
@@ -17,15 +15,13 @@ const MainScreen = () => {
           <Sun_cloud_icon />
         </View>
         <Temperature />
-        <Detail />
+        <Details />
+        <Hourly />
+        <Rain />
+        <Feelslike />
       </View>
-<<<<<<< HEAD
-      <Temperature />
-      <Details />
-    </View>
-=======
     </ScrollView>
->>>>>>> Pradumn-Singh-Patel-master
+
   );
 };
 const styles = StyleSheet.create({

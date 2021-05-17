@@ -21,6 +21,7 @@ const MainScreen = () => {
         <Feelslike />
       </View>
     </ScrollView>
+
   );
 };
 const styles = StyleSheet.create({

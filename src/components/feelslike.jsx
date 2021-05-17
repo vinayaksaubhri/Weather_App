@@ -13,27 +13,18 @@ function feelslike() {
 
 const style = StyleSheet.create({
   container: {
-    flex: 1,
     width: 50,
     height: 20,
-    left: 280,
-    bottom: 650,
     display: "flex",
+    flexDirection: "row",
     borderRadius: 10,
     backgroundColor: "rgba(255, 255, 255, 0.1)",
-    flexWrap: "wrap",
-    padding: 1,
-  },
-  box: {
-    display: "flex",
-    justifyContent: "center",
-    padding: 3,
+    alignItems: "center",
+    justifyContent: "space-evenly",
   },
   data: {
     fontSize: 13,
     color: "rgba(255, 255, 255, 0.7)",
-    marginLeft: 5,
-    alignItems: "center",
   },
 });
 export default feelslike;

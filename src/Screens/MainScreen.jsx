@@ -4,8 +4,8 @@ import Sun_cloud_icon from "../assets/Sun_cloud_icon";
 import Temperature from "../components/Temperature";
 import Details from "../components/Detail";
 import Hourly from "../components/Hourly";
-import rain from "../components/rain";
-import feelslike from "../components/feelslike";
+import Rain from "../components/rain";
+import Feelslike from "../components/feelslike";
 const MainScreen = () => {
   return (
     <ScrollView>
@@ -14,8 +14,22 @@ const MainScreen = () => {
         <View style={styles.icon}>
           <Sun_cloud_icon />
         </View>
-        <View style={{ marginBottom: 34, paddingLeft: 20 }}>
+        <View
+          style={{
+            marginBottom: 34,
+            paddingLeft: 20,
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+        >
           <Temperature />
+          <View style={{ alignSelf: "center", paddingRight: 20 }}>
+            <View style={{ marginBottom: 10 }}>
+              <Rain />
+            </View>
+            <Feelslike />
+          </View>
         </View>
         <View
           style={{
@@ -45,9 +59,6 @@ const styles = StyleSheet.create({
   },
   icon: {
     alignSelf: "flex-end",
-  },
-  Temperature: {
-    marginBottom: 10,
   },
 });
 export default MainScreen;

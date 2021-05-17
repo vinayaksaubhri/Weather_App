@@ -4,6 +4,8 @@ import Sun_cloud_icon from "../assets/Sun_cloud_icon";
 import Temperature from "../components/Temperature";
 import Details from "../components/Detail";
 import Hourly from "../components/Hourly";
+import Rain from "../components/rain";
+import Feelslike from "../components/feelslike";
 const MainScreen = () => {
   return (
     <ScrollView>
@@ -15,6 +17,8 @@ const MainScreen = () => {
         <Temperature />
         <Details />
         <Hourly />
+        <Rain />
+        <Feelslike />
       </View>
     </ScrollView>
   );

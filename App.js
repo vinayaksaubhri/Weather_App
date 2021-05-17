@@ -1,7 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View, StatusBar } from "react-native";
 import HomeScreen from "./src/Screens/homeScreen";
+<<<<<<< HEAD
 
+=======
+// import Details from "./src/Screens/Details";
+>>>>>>> Pradumn-Singh-Patel-master
 import MainScreen from "./src/Screens/MainScreen";
 
 export default function App() {

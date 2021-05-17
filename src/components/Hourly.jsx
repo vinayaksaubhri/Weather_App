@@ -42,48 +42,44 @@ function Hourly(props) {
 
 const style = StyleSheet.create({
   container: {
-    width: 330,
+    width: "100%",
     height: 164,
-    display: "flex",
+
     borderRadius: 10,
     backgroundColor: "#343434",
     flexWrap: "wrap",
-    marginBottom: 30,
   },
   upperbox: {
     flex: 1,
-    display: "flex",
   },
 
   hourly: {
     marginTop: 15,
     marginLeft: 22,
     fontSize: 18,
-    // fontFamily: "Poppins",
+
     color: "rgba(255, 255, 255, 0.7)",
   },
 
   lowerbox: {
     flexWrap: "wrap",
     display: "flex",
-    flex: 3,
+    flex: 5,
   },
 
   box: {
     height: 98,
     width: 41,
-    margin: 20,
-    padding: 5,
+    margin: 22,
+    // padding: 5,
     justifyContent: "space-evenly",
   },
   data: {
     fontSize: 19,
     color: "rgba(255, 255, 255, 0.7)",
-    // fontFamily: "Poppins",
   },
   header: {
     color: "rgba(255, 255, 255, 0.7)",
-    // fontFamily: "Poppins",
   },
 });
 export default Hourly;

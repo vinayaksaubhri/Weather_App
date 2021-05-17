@@ -39,15 +39,13 @@ const Detail = () => {
 
 const styles = StyleSheet.create({
   container: {
-    width: 330,
+    width: "100%",
     height: 329,
     display: "flex",
     borderRadius: 10,
     backgroundColor: "#343434",
-    flexWrap: "wrap",
   },
   upper_flex: {
-    display: "flex",
     flex: 1,
   },
   lower_flex: {
@@ -62,6 +60,8 @@ const styles = StyleSheet.create({
     color: "rgba(255, 255, 255, 0.7)",
   },
   box: {
+    marginLeft: 23,
+    marginTop: 18,
     width: 93,
     height: 56,
     margin: 14,

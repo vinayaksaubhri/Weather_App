@@ -5,7 +5,7 @@ import Downarrow from "../assets/downarrow";
 
 const Temperature = () => {
   return (
-    <View style={styles.container}>
+    <>
       <Text style={styles.temperature}>31°</Text>
       <Text style={styles.condition}>Sunny</Text>
       <View style={{ flexDirection: "row" }}>
@@ -18,7 +18,7 @@ const Temperature = () => {
           25°
         </Text>
       </View>
-    </View>
+    </>
   );
 };
 const styles = StyleSheet.create({
